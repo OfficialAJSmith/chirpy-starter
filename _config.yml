@@ -9,18 +9,35 @@ lang: en
 # Use Chirpy via remote_theme
 remote_theme: cotes2020/jekyll-theme-chirpy
 
-# Plugins
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-archives
+
+# Pagination (already working)
+paginate: 10
+paginate_path: "/page:num/"
+
+# Archives (categories & tags)
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: archive
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
+
+# Your other Chirpy settings…
+# theme_mode: dark
+
 
 # Chirpy options
 theme_mode: dark                 # force dark
 toc: true
-paginate: 10
 
 # Defaults
 defaults:
