@@ -15,6 +15,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Chirpy options
 theme_mode: dark                 # force dark
@@ -38,7 +39,7 @@ kramdown:
   input: GFM
 
 # Don’t ship build/dev files
-exclude:
+#exclude:
   - node_modules
   - vendor
   - Gemfile
