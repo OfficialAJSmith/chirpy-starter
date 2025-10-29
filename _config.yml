@@ -38,12 +38,4 @@ sass:
 kramdown:
   input: GFM
 
-# Don’t ship build/dev files
-#exclude:
-  - node_modules
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-  - netlify.toml
-  - README.md
-  - .github
+
