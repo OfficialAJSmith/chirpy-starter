@@ -11,4 +11,5 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag", "~> 2.8"
   gem "jekyll-include-cache", "~> 0.2"
   gem "jekyll-paginate", "~> 1.1"
+  gem "jekyll-archives", "~> 0.16"
 end
